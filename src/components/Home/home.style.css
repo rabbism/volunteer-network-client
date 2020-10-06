@@ -1,0 +1,11 @@
+.card {
+    position: relative !important;
+}
+
+.margin-top {
+    position: absolute !important;
+    background-color: #FFBD3E;
+    bottom: 0;
+    width: 100%;
+    text-align: center
+}

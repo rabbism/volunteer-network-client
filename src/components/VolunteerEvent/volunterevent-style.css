@@ -1,0 +1,42 @@
+.volun__img{
+    width: 194px;
+    height: 173px;
+}
+.volunteer__details{
+   width: 310px;
+   padding: 0px 10px;
+}
+.bgcolor{
+    width: 570px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.volunteer__title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #0B0B0B;
+}
+.volunteer__date{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.volunteer-btn{
+    display: flex;
+   
+    padding: 10px 30px;
+    border:none;
+    width: 131px;
+    height: 48px;
+
+    background: #E3E3E3;
+    border-radius: 5px;
+}
