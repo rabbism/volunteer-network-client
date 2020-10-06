@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { UserContext } from '../../App';
 import logo from '../../logo.png'
 import './topbar-style.css'
+import { Button } from 'react-bootstrap';
 
 const TopNav = () => {
 
@@ -17,12 +18,12 @@ const TopNav = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Link to="/" className="nav-link">Home</Link> 
-                        <NavLink>Donate</NavLink>
-                        <NavLink>Event</NavLink>
-                        <Link to="/" className="nav-link">Register</Link>
+                        <Link to="/" className="nav-link">HOME</Link> 
+                        <NavLink>DONATION</NavLink>
+                        <NavLink>EVENT</NavLink>
+                        <Link to="/" className="nav-link"><Button as="input" type="reset" value="Registration" /></Link>
                         <NavLink>{loggedInUser.name}</NavLink>
-                        <Link to="/admin" className="nav-link">Admin</Link>
+                        <Link to="/admin" className="nav-link"><Button as="input" type="submit" value="ADMIN" /></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
